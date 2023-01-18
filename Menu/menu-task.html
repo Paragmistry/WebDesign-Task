@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .navbar{
+      background-color:white;
+      height: 90px;
+      width:100%;
+      display: flex;
+      align-items: center;
+      padding: 0 5px;
+      justify-content: space-between;
+    }
+    img{
+      height: 65px;
+      width: 370px;
+      margin-left: 20px;
+      
+    }
+    .navbar ul{
+      list-style: none;
+      display:flex;
+     
+    }
+    .navbar ul li{
+      padding: 10px 30px;
+      position: relative;
+    }
+    .navbar ul li a{
+      text-decoration: none;
+      color:black;
+      line-height: 20px;
+      font-weight: 500;
+      font-size: 16px;
+      font-family: 'Rubik', sans-serif;
+      transition: all 0.3s;
+    }
+    .navbar ul li a:hover {
+      color: #479fd8;
+    }
+    .dropdown-menu{
+      display: none;
+      margin-top: 10px;
+    }
+    .navbar ul li:hover .dropdown-menu{
+      display:block;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background-color:white;
+    }
+    .navbar ul li:hover .dropdown-menu ul{
+      display:block;
+    }
+    .navbar ul li:hover .dropdown-menu ul li{
+      width: 230px;
+      padding: 15px;
+      border-bottom: 0.1px solid black;
+    }
+  .top-bar{
+    height:45px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2E3192; 
+   }
+   .top-bar p{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="logo.png" alt="logo">
+    <ul>
+      <li><a href="#">Classroom</a></li>
+      <li><a href="#">Online <i class="fas fa-caret-down"></i></a>
+      <div class="dropdown-menu">
+        <ul>
+          <li><a href="#">Java Training Course Online</a></li>
+          <li><a href="#">Android Training Course Online</a></li>
+          <li><a href="#">Digital Marketing Training Course Online</a></li>
+          <li><a href="#">PHP Training Course Online</a></li>
+          <li><a href="#">Software Testing Training Course Online</a></li>
+          <li><a href="#">Graphic Designing Training Course Online</a></li>
+          <li><a href="#">Web Designing Training Course Online</a></li>
+          <li><a href="#">IOS Training Course Online</a></li>         
+        </ul>
+      </div>
+      </li>
+      <li><a href="#">StudyAborad <i class="fas fa-caret-down"></i></a>
+      <div class="dropdown-menu">
+        <ul>
+          <li><a href="#">Study In Canada</a></li>
+          <li><a href="#">Study In Australia</a></li>
+          <li><a href="#">Study In New Zealand</a></li>
+          <li><a href="#">Study In Singapore</a></li>
+
+        </ul>
+      </div>
+      </li>
+     <li><a href="#">Locations</a></li>
+      <li><a href="#">Webinars</a></li>
+    </ul>
+  </div>
+  <div class="top-bar"><p>New Admissions Open For Career And Placement Courses.</p></div>
+</body>
+</html>
