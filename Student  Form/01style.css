@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  background-size: cover;
+  background-image: url(./students.jpg);
+  height: 585px;
+}
+
+.sub {
+  position: absolute;
+  background-color:rgb(49, 155, 216);
+  height: 428px;
+  width: 665px;
+  margin: 75px 275px;
+}
+
+.sub h1 {
+  color: white;
+  font-size: 23px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-align: center;
+  margin: 11px 0;
+}
+
+.one {
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  
+}
+
+i {
+  margin: 5px 3px 3px 11px;
+}
+
+input {
+  border: 2px solid rgb(71, 146, 231);
+  border-radius: 20px;
+  width: 330px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.sub .two {
+  position: absolute;
+  background-image: url(./pexels-anna-shvets-4226122.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+  width: 265px;
+  margin-left: 400px;
+}
